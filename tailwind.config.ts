@@ -9,10 +9,15 @@ const config: Config = {
   theme: {
     extend: {
       backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+        'gradient-linear': 'linear-gradient(#001DFA, #8996FF)',
       },
+      colors: {
+        'primary-orange': '#FF5A05',
+        'secondary-orange': '#FDEEE7',
+        'primary-blue': '#1F37FF',
+        'secondary-blue': '#000848',
+        'primary-purple': '#4252CF'
+      }
     },
   },
   plugins: [],
